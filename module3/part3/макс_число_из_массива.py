@@ -1,9 +1,5 @@
 import array as arr
 
-num1 = arr.array('i', [56, 9, 11, 2])
-num2 = arr.array('i', [3, 81, 5])
-num3 = arr.array('i', [12, 7, 9, 93, 44, 48])
-
 
 def arr_in_int(arr_num):
     sorted_list_num = []
@@ -41,6 +37,9 @@ def arr_in_int(arr_num):
     return int(int_num)
 
 
+num1 = arr.array('i', [56, 9, 11, 2])
+num2 = arr.array('i', [3, 81, 5])
+num3 = arr.array('i', [12, 7, 9, 93, 44, 48])
 print(arr_in_int(num1))
 print(arr_in_int(num2))
 print(arr_in_int(num3))
